@@ -17,6 +17,10 @@
     gap: 80px;
 }
 
+.footer-content-left .footer-logo{
+    width: 100px;
+}
+
 .footer-content-left, .footer-content-center, .footer-content-right{
     display: flex;
     flex-direction: column;
@@ -64,5 +68,8 @@
     }
     .footer-copyright{
         text-align: center;
+    }
+    .footer-content-left .footer-logo{
+        width: 80px;
     }
 }
